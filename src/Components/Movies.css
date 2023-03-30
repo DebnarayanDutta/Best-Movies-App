@@ -1,0 +1,36 @@
+.shows-container{
+
+    height: 500px;
+    width: 410px;
+    margin-left: 10px;
+   
+}
+
+.poster-container img{
+    height: 250px;
+    width: 200px;
+    
+}
+
+.poster-container img:hover{
+    height: 280px;
+    
+}
+
+@media only screen and (max-width: 600px) {
+ .shows-container  {
+    height: 350px;
+    width: 200px;
+    margin-left: 5px;
+  }
+
+  .poster-container img{
+    height: 100px;
+    width: 80px;
+    }
+
+    .poster-container img:hover{
+    height: 120px;
+    
+}
+}
